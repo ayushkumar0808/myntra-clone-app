@@ -1,0 +1,1 @@
+# mintra clone app
