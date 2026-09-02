@@ -111,12 +111,16 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  overflow: hidden;
 }
 
 .sale-item {
-  width: 248px;
+  width: 238px;
+  transition: transform 0.5s ease;
 }
-
+.sale-item:hover {
+  transform: scale(1.05);
+}
 /* FOOTER SECTION */
 
 .footer_container {
