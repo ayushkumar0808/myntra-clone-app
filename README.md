@@ -28,7 +28,7 @@ This project recreates the look and feel of Myntra's landing page with a clean a
 mintra-clone-app/
 │
 ├── index.html
-├── style.css
+├── index.css
 ├── images/
 └── README.md
 ```
