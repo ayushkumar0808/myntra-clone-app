@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family:
+    Figtree-Regular,
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  height: 80px;
+  background-color: bisque;
+  justify-content: space-between;
+  align-items: center;
+}
+.mintra-logo {
+  height: 36px;
+  width: 53px;
+}
+.logo-container {
+  margin-left: 4%;
+}
+.action-bar {
+  margin-right: 4%;
+}
+.nav-bar {
+  display: flex;
+  min-width: 500px;
+  justify-content: space-between;
+}
+.nav-bar a {
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: #282c3f;
+  font-weight: 700;
+  text-decoration: none;
+}
+.nav-bar a sup {
+  font-size: 10px;
+  color: #ff3f6c;
+}
+.search-bar {
+  height: 40px;
+  min-width: 400px;
+  display: flex;
+}
+.search {
+  background-color: #f5f5f6;
+  color: #696e79;
+  flex-grow: 1;
+  height: 40px;
+  border: 0;
+  border-radius: 0 4px 4px 0;
+}
+.search-icon {
+  box-sizing: content-box;
+  height: 20px;
+  padding: 10px;
+  background-color: #f5f5f6;
+  color: #282c3f;
+  border-radius: 4px 0 0 4px;
+}
