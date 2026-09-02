@@ -12,12 +12,16 @@
     sans-serif;
   box-sizing: border-box;
 }
+
+/* NAV BAR */
+
 header {
   display: flex;
   height: 80px;
-  background-color: bisque;
+  background-color: white;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #f6f6f6;
 }
 .mintra-logo {
   height: 36px;
@@ -32,7 +36,7 @@ header {
 .nav-bar {
   display: flex;
   min-width: 500px;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .nav-bar a {
   font-size: 14px;
@@ -40,14 +44,21 @@ header {
   color: #282c3f;
   font-weight: 700;
   text-decoration: none;
+  padding: 29px 0;
+  border-bottom: 3px solid white;
 }
+.nav-bar a:hover {
+  border-bottom: 3px solid #f54e77;
+}
+
 .nav-bar a sup {
   font-size: 10px;
   color: #ff3f6c;
 }
 .search-bar {
   height: 40px;
-  min-width: 400px;
+  min-width: 200px;
+  width: 30%;
   display: flex;
 }
 .search {
@@ -66,3 +77,15 @@ header {
   color: #282c3f;
   border-radius: 4px 0 0 4px;
 }
+.action-bar {
+  display: flex;
+  min-width: 200px;
+  justify-content: space-evenly;
+}
+.action-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*MAIN SECTION */
