@@ -89,3 +89,10 @@ header {
 }
 
 /*MAIN SECTION */
+
+.banner-image {
+  width: 100%;
+}
+.banner-container {
+  margin: 40px 0;
+}
