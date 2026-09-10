@@ -5,7 +5,7 @@ This project recreates the look and feel of Myntra's landing page with a clean a
 
 ## 🚀 Live Demo
 
-👉 https://ayushkumar0808.github.io/mintra-clone-app/
+👉 **[Myntra Clone](https://ayushkumar0808.github.io/myntra-clone-app/)**
 
 ## 🛠️ Tech Stack
 
@@ -43,12 +43,6 @@ This project was created to practice and strengthen my **HTML and CSS skills**, 
 - Responsive design
 - Hover effects
 - UI recreation
-
-## 📸 Preview
-
-Visit the live website:
-
-👉 **[Myntra Clone](https://ayushkumar0808.github.io/mintra-clone-app/)**
 
 ## ⚠️ Disclaimer
 
